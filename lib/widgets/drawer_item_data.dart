@@ -214,7 +214,7 @@ class _DrawerItemDataState extends State<DrawerItemData> {
                         .where(
                             (element) =>
                         element.pcn == cnName)
-                        .toList().length * 10.0 +150, 150) : 0,
+                        .toList().length * 9.0 +110, 110) : 0,
                 child: Container(
                     // alignment: Alignment.centerRight,
                     child: DrawerItemListExpanded(widget.orgData, cnName))
